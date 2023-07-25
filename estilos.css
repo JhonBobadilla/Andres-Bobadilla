@@ -26,7 +26,40 @@ section {
 }
 
 
+a {
 
+    display: inline-block;
+            background-color: #25D366; /* Color de fondo del botón */
+            color: #fff; /* Color del texto */
+            padding: 10px 1px 10px;
+            border-radius: 5px; /* Bordes redondeados */
+            text-decoration: none;
+            transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+            
+        }
+
+        /* Estilos del ícono de WhatsApp */
+        .whatsapp-button img {
+            vertical-align: middle;
+            margin-right: 5px;
+            
+            
+        }
+
+        /* Cambiar el color de fondo al pasar el mouse sobre el botón */
+        .whatsapp-button:hover {
+            background-color: #128C7E; /* Nuevo color de fondo al pasar el mouse */
+        
+        
+        
+        }
+
+        img {
+            
+            width: 4%;
+            
+            
+          }
 
 
 /* Estilos generales */
