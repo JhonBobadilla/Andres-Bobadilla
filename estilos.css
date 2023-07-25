@@ -23,7 +23,7 @@ nav {
 
 nav ul {
     list-style: none;
-    display: flex;
+    display: flex; /* Utilizando Flexbox */
     justify-content: center;
 }
 
@@ -50,4 +50,17 @@ footer {
     padding: 10px;
     color: #fff; /* Color del texto en blanco */
     text-align: center;
+}
+
+/* Flexbox para organizar los elementos dentro de las secciones */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Agregar márgenes entre los párrafos */
+section p {
+    margin: 10px 0;
 }
