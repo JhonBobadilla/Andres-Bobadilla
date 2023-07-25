@@ -1,0 +1,53 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Color del texto en gris oscuro */
+    background-color: #fff; /* Color de fondo en blanco */
+}
+
+header {
+    background-color: #000; /* Color de fondo del encabezado en negro */
+    padding: 20px;
+    color: #fff; /* Color del texto en blanco */
+}
+
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación en gris oscuro */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Color del texto de los enlaces en blanco */
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Línea de separación entre secciones en gris */
+}
+
+section h2 {
+    color: #000; /* Color del texto de los encabezados de sección en negro */
+}
+
+footer {
+    background-color: #333; /* Color de fondo del pie de página en gris oscuro */
+    padding: 10px;
+    color: #fff; /* Color del texto en blanco */
+    text-align: center;
+}
