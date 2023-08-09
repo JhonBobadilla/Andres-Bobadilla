@@ -649,7 +649,11 @@ button.main_bt a:hover {
     width: 33.33%;
 }
 
-.footer-logo{ margin-top: 70px;}
+.footer-logo{ 
+    margin-top: 97px;
+    margin-right: 50px;
+
+}
 
 
 .subsrcibe_bt {
@@ -663,7 +667,7 @@ button.main_bt a:hover {
     border: 0px;
 }
 
-.margin-top-30 { padding-top: 25px;  width: 90%;}
+.margin-top-30 { padding-top: 75px;  width: 90%;}
 
 .icon_main{ width: 100%; float: left; text-align: center;}
 .menu_text {width: 20%;
