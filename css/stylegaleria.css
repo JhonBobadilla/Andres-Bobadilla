@@ -1,0 +1,22 @@
+
+.col-sm-12oooooooooooooooo img{ /*ojo esto es truco especial, acá la img está sin class ni id
+        se puso despues de la class tarjetas-de-mokepon*/
+
+     
+        
+   width: 500px;
+   flex-direction: center;
+   display: block;
+   align-items: center;
+   
+margin:auto;
+   
+
+   
+   
+}
+
+
+
+
+
