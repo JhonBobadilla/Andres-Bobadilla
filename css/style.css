@@ -629,10 +629,22 @@ button.main_bt a:hover {
 	padding-top: 65px;
 }
 
+.col-sm-6_col-md-6_col-lg-4{
+
+    text-align: center;
+    
+
+}
+
+
+
+
 .menu{
 	width: 100%;
 	float: left;
 	margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
 }
 .menu ul{margin: 0px; padding: 0px;}
 
@@ -642,9 +654,9 @@ button.main_bt a:hover {
 	width: 100%; 
 	float: left; 
 	color: #fcfcfc; 
-	font-size: 24px; 
+	font-size: 40px; 
 	font-weight: bold; 
-	margin-top: 15px; }
+	margin-top: 60px; }
 .menu.multi_column_menu li {
     float: left;
     width: 33.33%;
@@ -688,6 +700,6 @@ button.main_bt a:hover {
 
 
 
-}	
+	
 
 
