@@ -212,10 +212,12 @@ ul, li, ol {
 .margin-top-20{ margin-top: 20px; }
 
 .donec_text{
-	font-size: 17px;
-    color: #110f0a;
-    margin-left: 0;
-    padding-bottom: 20px;
+	font: size 17px;
+    text-align: justify;
+    margin: 10px 10px -57px 0px;
+    border: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #000000;
     z-index: 9;
     position: relative;
 }
@@ -437,7 +439,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	width: 100%;
 	float: left;
 	background-color: #ffffff;
-    padding: 12px 40px 0px 40px;
+    padding: 22px 40px 20px 40px;
     margin-top: 31px;
 }
 .dolar_tetx{
@@ -452,10 +454,10 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 }
 
 .right_aero{
-   max-width: 100%;
-   left: -245px;
+   width: -11%;
+   left: -260px;
    position: relative;
-   top: -160px;
+   top: -90px;
 }
 
 .about_inner{
