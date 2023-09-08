@@ -3,7 +3,7 @@
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) 
+/*@media only screen and (min-width: 768px) and (max-width: 991px) 
     
     .header-search {
         padding: 15px 0px;
@@ -12,11 +12,99 @@
     
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 599px) and (max-width: 767px) {
+@media (min-width: 374px) {
+    
     .logo {
         
-        width: 23px;
+        margin-left: 25px;
+        margin-top: -3px;
+        width: 300px;
+        
+              
     }
+
+    .col-md-9 {
+
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+      align-items: stretch;
+
+    }
+
+    .web_text{ 
+        
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+
+    }
+    
+    .donec_text{
+        
+        margin: 10px 10px 10px 0px;
+        
+    }  
+
+     .col-sm-12oooooooooooooooo img{
+
+        margin: 0px 0px 0px 38px;
+        width: 300px;
+        margin-top: -10px;
+     }
+
+     .dolar_tetx{
+
+      text-align: center;
+      font-size: 30px;
+      margin-top: 100px;
+        margin-bottom: 50px;
+      
+
+     }
+
+     .special_text{
+
+        text-align: center;
+        font-size: 25px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+  
+       }
+
+       .col-sm-4{
+
+        margin: 0px 0px 0px 38px;
+
+       }
+      
+             
+     .row.web{
+
+        width: 270px;
+        margin: 0px 0px 0px -60px;
+
+
+     }
+
+    /*.img-box {
+
+
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        align-items: stretch;
+
+    } 
+
+
+   /* .bannen_inner{
+        width: 100%;
+        float: left;*/ 
+
+   
+
     .cart-content-right {
         padding-bottom: 5px;
     }
@@ -85,7 +173,7 @@
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 280px) and (max-width: 599px) {
+/*@media only screen and (min-width: 280px) and (max-width: 599px) {
     .cart-content-right {
         padding-bottom: 5px;
     }
@@ -308,7 +396,13 @@ padding: 126px 40px;
     left: -234px;
 width: 55%;
 }
-    .img-box {display: none;}
+    .img-box /*{display: none;}*/
+
+    
+
+            /*padding-top: 400px;
+
+        }
 
 .choose_text { font-size: 37px;}
 .bt_main { width: 25%;}
