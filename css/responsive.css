@@ -12,8 +12,15 @@
     
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
-@media (min-width: 374px) {
+@media (max-width: 374px) {
     
+  
+    textarea {
+        width: 100%; 
+
+    }
+
+
     .logo {
         
         margin-left: 25px;
@@ -37,9 +44,12 @@
         margin: 0px;
         padding: 0px;
         border: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+       
+            }
 
-    }
-    
+        
     .donec_text{
         
         margin: 10px 10px 10px 0px;
@@ -48,7 +58,7 @@
 
      .col-sm-12oooooooooooooooo img{
 
-        margin: 0px 0px 0px 38px;
+        margin: 0px 0px 0px 43px;
         width: 300px;
         margin-top: -10px;
      }
@@ -82,11 +92,55 @@
              
      .row.web{
 
-        width: 270px;
-        margin: 0px 0px 0px -60px;
-
+        width: 350px;
+        margin: 0px 0px 0px -103px;
+       
 
      }
+
+
+     .power_full{
+
+        margin: 0px 0px 20px -17px;
+        
+     }
+
+     .power{
+
+        margin: 0px 0px 20px -17px;
+     }
+
+     
+     .lorem_text{
+
+        text-align: center;
+        margin: 20px 0px 0px 0px;
+
+     }
+
+     .choose_text{
+
+      margin-top: 40px;
+
+     }
+    
+     .col-sm-12ooooooooooooooo1 img{
+
+        margin: 0px 0px 0px 2px;
+        width: 325px;
+        
+
+     }
+
+
+    .map_main{
+
+    align-items: center;
+
+}
+
+
+    }
 
     /*.img-box {
 
@@ -105,7 +159,7 @@
 
    
 
-    .cart-content-right {
+   /* .cart-content-right {
         padding-bottom: 5px;
     }
     .mg {
@@ -168,7 +222,7 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
-}
+}*/
 
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
